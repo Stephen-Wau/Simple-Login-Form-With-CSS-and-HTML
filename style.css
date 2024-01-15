@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(wl.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    width: 370px;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(20px);
+}
+
+.wrapper h1{
+    text-align: center;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: whitesmoke;
+}
+
+.input-box i {
+    position: absolute; 
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin:  15px 0 15px;
+}
+
+.remember-forgot label {
+    color: white;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .button {
+    width: 100%;
+    height: 40px;
+    background: whitesmoke;
+    opacity: 0.6;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper .button:hover{
+    letter-spacing: 2px;
+    background: transparent;
+    transition: 1s;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.register {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.register a {
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
